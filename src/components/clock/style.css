@@ -1,0 +1,11 @@
+.container-clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10%;
+}
+.input-clock {
+  padding: 20px;
+  font-size: 40px;
+  border-radius: 20px;
+}
