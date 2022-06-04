@@ -8,6 +8,7 @@ export default function Clock() {
   const [hours, setHours] = useState(date.getHours());
   let time = `${hours}:${minutes}:${seconds}`;
   useEffect(() => {
+    document.title = "Horario local";
     const interval = setInterval(clocktime, 1000);
 
     return () => clearInterval(interval);
